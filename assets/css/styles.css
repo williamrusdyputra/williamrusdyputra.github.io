@@ -509,6 +509,7 @@ img {
 
 @media screen and (min-width: 768px) {
     .container {
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -518,11 +519,41 @@ img {
     }
 
     .section {
-        padding: 6rem 0 2rem;
+        padding: 6rem 0 0;
+        height: 100vh;
+        width: 100vw;
     }
 
-    .section_subtitle {
-        margin-bottom: 4rem;
+    .section_title {
+        padding-top: 2rem;
+    }
+
+    .about_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 100%;
+    }
+
+    .about_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about_detail {
+        padding-top: 2.5rem;
+    }
+
+    .about_data {
+        width: 100%;
+    }
+
+    .about_img {
+        width: 500px;
     }
 
     .header {
@@ -561,12 +592,71 @@ img {
         padding-top: 5.5rem;
         column-gap: 2rem;
     }
+
+    .home_image {
+        width: 500px;
+    }
 }
 
 /* For large devices */
 @media screen and (min-width: 1580px) {
     .container {
-        max-width: 75%;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .home_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .home_data {
+        width: 100%;
+    }
+
+    .about_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        width: 100%;
+    }
+
+    .about_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about_data {
+        width: 100%;
+    }
+
+    .about_detail {
+        padding-top: 4rem;
+    }
+
+    .section {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .section_title {
+        padding-top: 4.5rem;
     }
 
     .header, .main {
