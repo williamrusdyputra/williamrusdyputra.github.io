@@ -71,6 +71,12 @@ body {
     color: var(--text-color);
 }
 
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
 h1, h2, h3, h4 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);

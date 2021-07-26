@@ -24,11 +24,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-
-/*==================== REMOVE MENU MOBILE ====================*/
-
-
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
     const nav = document.getElementById('header')
