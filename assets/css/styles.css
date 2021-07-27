@@ -523,7 +523,7 @@ img {
     }
 
     .section {
-        padding: 6rem 0 0;
+        padding: 5.5rem 0 0;
         height: 100vh;
         width: 100vw;
     }
@@ -624,6 +624,7 @@ img {
         justify-content: center;
         height: 100%;
         width: 100%;
+        padding-top: 0;
     }
 
     .home_data {
@@ -669,7 +670,6 @@ img {
 
     .home_content {
         grid-template-columns: max-content;
-        padding-top: 2.5rem;
     }
 
     .home_image {
