@@ -54,6 +54,7 @@
 
 /*==================== BASE ====================*/
 * {
+    max-width: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -517,12 +518,8 @@ img {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    body {
-        margin: 0;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
 
     .section {
@@ -569,9 +566,9 @@ img {
         bottom: initial;
     }
 
-    .header, .main {
+    /* .header, .main {
         padding: 0 1.5rem;
-    }
+    } */
 
     .nav {
         height: calc(var(--header-height) + 1.5rem);
