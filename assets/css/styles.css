@@ -2,7 +2,7 @@
 
 
 :root {
-    --header-height: 3rem;
+    --header-height: 4rem;
 
     --hue-color: 235; 
     --first-color: hsl(204, 65%, 28%);
